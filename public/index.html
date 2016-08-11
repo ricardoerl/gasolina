@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gasolina</title>
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/tachyons/css/tachyons.min.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- endbuild -->
+
+    <style>
+      html,
+      body {
+        font-size: 18px;
+        line-height: 1.5;
+        height: 100%;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+      }
+      #chart {
+        width: 100%;
+        height:500px;
+      }
+    </style>
+
+  </head>
+  <body class="bg-black-05">
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="mw9 center h-100">
+      <div class="cf h-100">
+        <div class="fl w-100 w-25-ns h-100-ns">
+          <header class="pa3">
+            <h1 class="f3 ma0"><a href="#" class="link dim black">#GasolinaSV</a></h1>
+            <p class="f6 black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos dolore quasi dolorum quidem doloremque numquam placeat consequuntur perspiciatis atque. Debitis, quam sint. Dolore sed labore amet sapiente libero aliquid, eum!</p>
+          </header>
+        </div>
+        <div class="fl w-100 w-75-ns h-100-ns">
+          <main class="pa3 bg-white" role="main">
+            <article class="mb4">
+              <h2 class="f3 ma0 normal">Precios de referencia vigentes del: <span class="b">02/08/2016 al 15/08/2016</span></h2>
+              <dl class="dib mb0 mr5">
+                <dd class="f6 b ma0">Diesel</dt>
+                <dd class="f1 b ml0">$2.23 <span class="f6 green">&#x25BC; $0.11</span></dt>
+              </dl>
+              <dl class="dib mb0 mr5">
+                <dd class="f6 b ma0">Regular</dt>
+                <dd class="f1 b ml0">$2.65 <span class="f6 green">&#x25BC; $0.09</span></dt>
+              </dl>
+              <dl class="dib mb0 mr5">
+                <dd class="f6 b ma0">Especial</dt>
+                <dd class="f1 b ml0">$2.81 <span class="f6 green">&#x25BC; $0.10</span></dt>
+              </dl>
+              <p class="f6 black-50 ma0">* Todos los precios de referencia incluyen Impuesto Especial a los Combustibles (IEC).</p>
+              <p class="f6 black-50 ma0">* Informaci&oacute;n oficial disponible en el sitio de la <a href="https://www.edrhym.gob.sv/drhm/precios.aspx" target="_blank" class="link black-50 underline">Dirección Reguladora de Hidrocarburos y Minas de El Salvador</a>.</p>
+            </article>
+            <div id="chart"></div>
+          </main>
+        </div>
+      </div>
+    </div>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/highcharts/highcharts.js"></script>
+    <script src="/bower_components/highcharts/modules/data.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/script.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

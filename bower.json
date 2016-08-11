@@ -1,0 +1,17 @@
+{
+  "name": "gasolina",
+  "private": true,
+  "dependencies": {
+    "tachyons": "^4.0.5",
+    "highcharts": "^4.2.6",
+    "jquery": "^3.1.0"
+  },
+  "overrides": {
+    "highcharts": {
+      "main": [
+        "highcharts.js",
+        "modules/data.js"
+      ]
+    }
+  }
+}
