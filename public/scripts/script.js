@@ -8,14 +8,14 @@ var chart = new Highcharts.Chart({
   },
   yAxis: {
     title: {
-      text: "Precio por galón"
+      text: 'Precio por galón'
     },
     labels: {
-      format: "${value}"
+      format: '${value}'
     }
   },
   xAxis: {
-    type: "datetime"
+    type: 'datetime'
   },
   plotOptions: {
     line: {
@@ -44,7 +44,7 @@ var chart = new Highcharts.Chart({
     googleSpreadsheetKey: '1ML_FCUV-4Bun8twg0eagVlqkqIO4dcNuaAsuDezhiXo'
   },
   credits: {
-    text: "highcharts.js",
+    text: 'highcharts.js',
     position: {
       align: 'center'
     }
@@ -53,11 +53,11 @@ var chart = new Highcharts.Chart({
 
 Highcharts.setOptions({
   lang: {
-    loading: "Cargando...",
-    months: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",  "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"],
-    shortMonths: ["Ene", "Feb", "Mar", "Abr", "May", "Jun",  "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"],
-    weekdays: ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"],
-    resetZoom: "Reestablecer zoom",
-    resetZoomTitle: "Reestablecer zoom por defecto"
+    loading: 'Cargando...',
+    months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',  'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+    shortMonths: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun',  'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
+    weekdays: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+    resetZoom: 'Reestablecer zoom',
+    resetZoomTitle: 'Reestablecer zoom por defecto'
   }
 });

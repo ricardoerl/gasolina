@@ -40,15 +40,6 @@ gulp.task('lint', () => {
   })
     .pipe(gulp.dest('public/scripts'));
 });
-gulp.task('lint:test', () => {
-  return lint('test/spec/**/*.js', {
-    fix: true,
-    env: {
-      mocha: true
-    }
-  })
-    .pipe(gulp.dest('test/spec/**/*.js'));
-});
 
 gulp.task('html', ['styles', 'scripts'], () => {
   return gulp.src('public/*.html')
