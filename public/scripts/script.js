@@ -4,7 +4,10 @@ var chart = new Highcharts.Chart({
     zoomType: 'x'
   },
   title: {
-    text: 'Historial precios de referencia para combustibles'
+    text: 'Historial precios de referencia para la zona central'
+  },
+  subtitle: {
+    text: ""
   },
   yAxis: {
     title: {
