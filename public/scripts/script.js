@@ -7,7 +7,7 @@ var chart = new Highcharts.Chart({
     text: 'Historial precios de referencia para la zona central'
   },
   subtitle: {
-    text: ""
+    text: ''
   },
   yAxis: {
     title: {
